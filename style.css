@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 16px ;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body > header {  
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+
+  }
+  
+  body > header > nav > ul {
+    margin: 10;
+    height: 100%;
+    display: normal;
+    align-items: center;
+    float: right;
+    list-style: none;
+  }
+  
+  body > header > nav > ul > li > a {
+    padding-right: 8px;
+    color: white;
+  }
+  .title {
+    position: absolute; 
+    top: 130px;
+    left: 300px;
+
+  }
+
+.stories {
+position: absolute; 
+top: 300px;
+left: 500px;
+margin: 0;
+height: 100%;
+display: flex;
+align-items: right;
+float: right;
+list-style: none
+}
+
+
+
+
